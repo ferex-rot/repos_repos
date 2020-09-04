@@ -1,0 +1,116 @@
+
+
+body{
+    background-image: url("data:image/svg+xml,%3Csvg width='38' height='38' viewBox='0 0 38 38' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='bevel-circle' fill='%232a9411' fill-opacity='0.4'%3E%3Cpath d='M10.414 29l-8 8h33.172l-8-8H10.414zM9 27.586l-8 8V2.414l8 8v17.172zM10.414 9l-8-8h33.172l-8 8H10.414zM29 10.414l8-8v33.172l-8-8V10.414zM11 11h16v16H11V11zm8 14c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm0-2c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zM0 0h38v38H0V0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	font-family: Calibri, Helvetica, sans-serif;
+}
+
+.container{
+	width: 70%;
+	margin: 0px auto;
+	border: 1px solid black;
+}
+
+header{
+	background: red;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	border-bottom: 3px dashed black;
+}
+nav{
+	background: lightblue;
+	height: 50px;
+	border-bottom: 1px solid black;
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	margin: 10px;
+	line-height: 30px;
+}
+.clearfix{
+	clear: both;
+}
+
+.content{
+	float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+}
+
+aside{
+	float: left;
+	width: calc(20% - 20px);
+	background: orange;
+	padding: 10px;
+}
+
+footer{
+	background: black;
+	color: white;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.article{
+color: white;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-bottom: 10px;
+border-bottom: 1px solid #eee;
+}
+
+.article:first-child{
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+}
+
+.article h2{
+	font-size: 25px;
+}
+.seccion{
+	    background: lightgreen;
+		margin: 50px;
+		width: 600px;
+		border: 1px solid: black;
+		float: left;
+	}
+
+.links{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.links a{
+	margin: 0 50px;
+}
+.links a i {
+font-size: 3rem;
+}
+
+.Info{
+text-align: black;
+color: white;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-bottom: 10px;
+border-bottom: 1px solid #eee;
+}
+.image{
+margin-bottom: 15px;
+padding-bottom: 10px;
+border-bottom: 1px solid #eee;
+}
+
+
+
+
+
+
